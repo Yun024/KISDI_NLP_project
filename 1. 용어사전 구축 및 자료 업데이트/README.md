@@ -25,6 +25,12 @@
 - ex)공격, 공격하다, 공격함/ 딥 러닝, 머신 러닝, 데이터 플랫폼 
 
 
+`최종 용어사전 CSV파일 형태`
+
+<img src = "https://user-images.githubusercontent.com/52143231/221653433-bbf14897-d5f5-4301-b68a-b0c878fb9979.png" width = 800, height = 150>
+
+
+
 
 
 
