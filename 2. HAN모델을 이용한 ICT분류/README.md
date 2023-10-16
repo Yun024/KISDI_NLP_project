@@ -1,5 +1,6 @@
 # HAN모델을 이용한 ICT분류
-[HAN이미지파일 삽입]
+![image](https://github.com/Yun024/NLP_ICT_Trend/assets/52143231/1da64f12-e910-4315-b80b-94d6d64c7b9f)
+
 
 - 문서 내 연속된 문장과 문장 내 연속된 단어의 계층적 구조의 특성을 반영
 - 반영된 특성을 통해 중요한 단어와 문장에 가중치를 부여하여 문서 분류 성능을 높인 모델
@@ -27,7 +28,10 @@
   
 ## HAN모델을 이용한 데이터 별 ICT분류 *[바로가기](https://github.com/Yun024/NLP_ICT_Trend/blob/main/2.%20HAN%EB%AA%A8%EB%8D%B8%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20ICT%EB%B6%84%EB%A5%98/2-2.%20Classifier_HAN(Final).py)*
 
-[그림 3-1 이미지 삽입]
+
+<img src = "https://github.com/Yun024/NLP_ICT_Trend/assets/52143231/d6d98686-13b7-43f6-91f4-72778f4f1d22.png"
+widht = "450" height = "250"/>
+
 - 정밀도(Precision)와 재현율(Recall)의 합이 가장 높을 때의 값을 임계점으로 결정 : 0.8774
   + 정밀도 : 모델이 ICT문서라고 분류한 것 중 실제로 ICT문서인 빙류
   + 재현율 : 실제로 ICT문서인 비율 중 모델이 ICT문서라고 분류한 비율 
@@ -37,8 +41,11 @@
 
 
 ## LDA, DTM모델에 사용할 TXT파일 생성 *[바로가기](https://github.com/Yun024/NLP_ICT_Trend/blob/main/2.%20HAN%EB%AA%A8%EB%8D%B8%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20ICT%EB%B6%84%EB%A5%98/2-3.%20Generate_txt(Final).py)*
+- LDA 및 DTM모델의 입력 데이터가 되는 논문의 국문초록을 활용한 텍스트 파일 생성
 
 ## TXT파일을 이용한 워드클라우드  *[바로가기](https://github.com/Yun024/NLP_ICT_Trend/blob/main/2.%20HAN%EB%AA%A8%EB%8D%B8%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20ICT%EB%B6%84%EB%A5%98/2-4.%20WordCloud.py)*
 
-[워드클라우드 이미지 삽입]
-- LDA모델을 진행하는데 있어 `min_cf` `min_df` `rm_top`를 어떻게 구성할것인지 구상해보기 위해 진행
+![image](https://github.com/Yun024/NLP_ICT_Trend/assets/52143231/d364fd8d-f236-4c93-acf9-8368154e2458)
+- LDA모델을 진행하기 전 파라미터 설정에 대한 정보를 얻기 위해 텍스트 파일을 이용한 워드클라우드 진행
+
+
