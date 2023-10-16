@@ -1,6 +1,10 @@
 # DTM모델을 이용한 토픽 분류
 
-[DTM 모델 이미지 삽입]https://aboutnlp.tistory.com/30
+>출처 :https://aboutnlp.tistory.com/30
+
+<img src = "https://github.com/Yun024/NLP_ICT_Trend/assets/52143231/55c20609-0ed3-4a13-91b2-6dbe11a6f040.png"
+width="500" height = "300"/> 
+
 
 - 시계열에 의한 문서 집합에서 토픽의 진화를 분석하는데 사용할 수 있는 생성 모델 
 - 기존 LDA의 경우 단어가 문서에 나타나는 순서와 문서가 코퍼스에 나타나는 순서는 무시하는 반면, DTM의 각 문서는 이전 그룹으로부터 진화된 토픽집합으로 온것으로 가정함
