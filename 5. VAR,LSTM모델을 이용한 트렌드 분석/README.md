@@ -2,9 +2,11 @@
 
 ## 모델 설명
 
-[그림2-3 위의 방정식]
 
-`VAR`
+
+### `VAR`
+
+<p align = "center"><img src = "https://github.com/Yun024/NLP_ICT_Trend/assets/52143231/9144421a-a390-43a1-b14d-5e2938ec62ac.png" width = "500" height = "150" ></p>
 
 - 일변량 AR모델을 다변량 AR모델로 확장한 모델로, 예측 및 내생변수의 변화에 따른 효과 분석 등에 자주 활용되고 있음 
 - 예측 시점이 예측하고자 하는 해당 변수의 과거 시점뿐만 아니라, 다른 변수의 과거 시점에도 영향을 받음
@@ -12,10 +14,11 @@
 - 모형에 사용되는 변수가 많지 않아도 일반적으로 우수한 성능을 보인다는 장점이 있음
 - 반면에 적은 수의 변수에게도 성능이 영향을 받기 때문에 변수 선정에 주의를 기울일 필요가 있음
 
+</br>
 
-[그림 2-3 삽입]
+### `LSTM`
 
-`LSTM`
+<p align = "center"><img src = "https://github.com/Yun024/NLP_ICT_Trend/assets/52143231/05b9fb88-724a-4a2d-b275-9b25790c9939.png" width = "600" height = "200"></p>
 
 - 기존 예측 딥러닝 모델인 RNN이 예측에 사용할 정보가 멀리 떨어져 있는 경우, 학습능력이 떨어지는 '장기 의존성 문제'를 해결한 모델
 - tanh 활성화 함수 게이트에 더해, Forget gate, input gate, output gate를 통해 역전파시 기울기값이 급격하게 사라지거나 증거하는 문제 방지
@@ -30,7 +33,8 @@
 
 ## 평가 기준
 
-[표3-10 삽입]
+![image](https://github.com/Yun024/NLP_ICT_Trend/assets/52143231/6f5cc6e1-f46c-400d-886b-594862a6e097)
+
 - MSE, R-Square, KL-Divergence score를 사용하였으며, MSE와 KL-Divergence는 낮을수록, R-square는 높을수록 모델의 정확도가 높다고 볼 수 있음
 - 모델과 데이터 별 평가 지표를 비교한 결과 VAR모델이 LSTM모델보다 성능이 우수한 것으로 보임
 
