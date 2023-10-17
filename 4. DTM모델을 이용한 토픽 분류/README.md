@@ -1,6 +1,5 @@
 # DTM모델을 이용한 토픽 분류
 
->출처 :https://aboutnlp.tistory.com/30
 
 <img src = "https://github.com/Yun024/NLP_ICT_Trend/assets/52143231/55c20609-0ed3-4a13-91b2-6dbe11a6f040.png"
 width="500" height = "300"/> 
