@@ -53,3 +53,8 @@
 - 토픽 별 텍스트 네트워크 *[바로가기](https://github.com/Yun024/NLP_ICT_Trend/blob/main/3.%20LDA%EB%AA%A8%EB%8D%B8%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%ED%86%A0%ED%94%BD%20%EB%B6%84%EB%A5%98/3-3.LDA_Network_2000.py)*
 
 
+
+## LDA토픽 모델링 중분류
+- 분류 분석을 통해 파악한 ICT 관련 토픽에 대한 LDA 모델 학습 및 구축 재진행 이후 coherence score 및 perplexity score확인 *[바로가기](https://github.com/Yun024/NLP_ICT_Trend/blob/main/3.%20LDA%EB%AA%A8%EB%8D%B8%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%ED%86%A0%ED%94%BD%20%EB%B6%84%EB%A5%98/6-1.Middle_LDA_Optimization.py)*
+- 처음으로 실행한 대분류 LDA모델의 모든 토픽에 대한 중분류 LDA모델 학습 및 구축, 분류 분석 등을 자동 실행하여 결과 도출 *[바로가기](https://github.com/Yun024/NLP_ICT_Trend/blob/main/3.%20LDA%EB%AA%A8%EB%8D%B8%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%ED%86%A0%ED%94%BD%20%EB%B6%84%EB%A5%98/6-2.LDA_auto_middle.py)*
+
