@@ -51,7 +51,9 @@
 
 - LDA모델 학습 및 구축
 - LDA모델을 이용한 토픽 분류 후 분석 
-- 토픽 별 텍스트 네트워크 
+- 토픽 별 텍스트 네트워크
+- 각 토픽 별 LDA모델을 통한 중분류 진행 
+- 중분류 토픽 분류 후 분석 
 
 ### 4. DTM모델을 이용한 토픽 분류 *[바로가기](https://github.com/Yun024/KISDI_NLP_project/blob/main/4.%20DTM%EB%AA%A8%EB%8D%B8%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%ED%86%A0%ED%94%BD%20%EB%B6%84%EB%A5%98/README.md)*
 
@@ -65,10 +67,6 @@
 - LSTM모델을 이용한 토픽 별 분포 및 주요단어 예측 
 
 
-### 6. LDA모델을 이용한 세분화 분류 *[바로가기](https://github.com/Yun024/KISDI_NLP_project/blob/main/6.%20LDA%EB%AA%A8%EB%8D%B8%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%84%B8%EB%B6%84%ED%99%94%20%EB%B6%84%EB%A5%98/README.md)*
-
-- 각 토픽 별 LDA모델을 통한 중분류 진행 
-- 중분류 토픽 분류 후 분석 
 
 ## ※ 활용 방안
 
